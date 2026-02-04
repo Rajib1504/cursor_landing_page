@@ -98,7 +98,7 @@ p {
   cursor: pointer;
 }
 .hero {
-  margin-top: 112px;
+  margin-top: 152px;
 }
 .branding_text {
   margin-bottom: 22.2px;
@@ -145,6 +145,7 @@ p {
   gap: 6rem;
   /* border:2px solid green; */
   display: grid;
+  margin-bottom: 8rem;
 }
 .agent-section1 {
   display: grid;
@@ -199,7 +200,6 @@ p {
   /* border: 2px solid red; */
   grid-column-start: 1;
   grid-column-end: 10;
-
 }
 .agent-text2 {
   /* border: 2px solid red; */
@@ -210,13 +210,85 @@ p {
   flex-direction: column;
   justify-content: center;
   font-size: 22px;
-  /* line-height: 1.6; */
   letter-spacing: 1px;
 }
 .agentImage2 img {
   border-radius: 5px;
 }
-.update{
-  margin: 0 1.5rem ;
+.update {
+  margin: 0 1.5rem;
 }
+.testimonalContainer h2 {
+  text-align: center;
+  font-size: 2.25rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin-bottom: 2rem;
+}
+/* .testimonalContainer {
+  border: 2px solid red;
+} */
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.cart {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 6rem;
+  /* border: 2px solid blue; */
+  border-radius: 5px;
+  background-color: var(--teritary);
+}
+.imageContainer {
+  display: flex;
+  gap: 10px;
+}
+.imageContainer img {
+  border-radius: 5px;
+}
+.role {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+/* .fronter{
+  border: 2px solid green;
+} */
+.fronterHeading {
+  font-size: 1.625rem;
+  margin: 8rem 0 1rem;
+}
+.frontierContainer {
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.fronteircart{
+  /* border: 2px solid blue; */
+  padding: 1rem;
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  border-radius: 5px;
+  background-color: var(--teritary);
 
+}
+.cartText {
+  font-size: 1.1rem;
+}
+.cartText span{
+  color: var(--secondary);
+}
+.btn-fronteir{
+  margin-top: 1rem;
+  color: var(--acent);
+}
+.fronteircart img{
+  border-radius: 5px;
+}
