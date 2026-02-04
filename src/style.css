@@ -10,26 +10,38 @@
   --primary-text: #ffffff;
   --secondary: #cccccc;
 }
+header {
+  background-color: var(--bg-color);
+}
 body {
   background-color: var(--bg-color);
   color: var(--primary-text);
   max-width: 90%;
   border: 2px solid red;
   margin: auto;
-  font-family: "Carrois Gothic";
+  font-family:
+    "CursorGothic",
+    "CursorGothic Fallback",
+    system-ui,
+    Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  /* position: relative; */
 }
 
 nav {
-  /* border: 2px solid red; */
-  margin: 12px;
-  margin-left: 0;
+  border: 2px solid red;
+  background-color: var(--bg-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 14px;
   padding-left: 0;
-  position: static;
+  position: fixed;
+  width: 90%;
   top: 0;
+  z-index: 10;
 }
 .logo {
   display: flex;
@@ -82,15 +94,48 @@ p {
   color: var(--secondary);
   cursor: pointer;
 }
-.hero{
+.hero {
   margin-top: 112px;
 }
-.branding_text{
+.branding_text {
   margin-bottom: 22.2px;
+  font-weight: 400;
+  font-size: 26px;
 }
-.mainbtn{
+.mainbtn {
   padding: 12px 24px;
   border-radius: 20px;
   font-size: 16px;
-  /* margin-bottom:; */
+  margin-bottom: 100px;
+}
+.banner img {
+  width: 100%;
+  border: 2px solid red;
+}
+.branding {
+  margin: 50px 0 70px;
+  font-size: 18px;
+  text-align: center;
+}
+.branding p{
+  margin-bottom: 16px;
+}
+.branding-container{
+  display: grid;
+  grid-template-rows: 1fr;
+ grid-template-columns:repeat(8,1fr);
+ gap: 10px;
+}
+.container {
+  height: 6.25rem;
+  /* border: 2px solid red; */
+  border-radius: 5px;
+  outline: 1px solid #33323179;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b1913;
+}
+.container img{
+  height: 2.5rem;
 }
