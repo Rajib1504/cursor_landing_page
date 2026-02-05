@@ -36,7 +36,7 @@ A static HTML/CSS recreation of the Cursor home page as seen on 2026-02-05. Live
 3) Open the printed localhost URL.
 
 ## Screenshots (add yours)
- `/public/banner.png`
+ `/banner.png`
 
 ## Publishing to a Public GitHub Repo
 1) Initialize git: `git init`
