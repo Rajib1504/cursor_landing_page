@@ -26,9 +26,9 @@ A static HTML/CSS recreation of the Cursor home page as seen on 2026-02-05. Live
 - Card hover and section-specific colors follow the same palette (e.g., recent highlights cards use #22201b / #26241e on hover).
 
 ## File Structure
-- `index.html` — page markup
-- `src/style.css` — global styles and layout grid definitions
-- `public/images` — assets (logos, hero banner, feature art, testimonials, frontier images, changelog, etc.)
+- `index.html` ï¿½ page markup
+- `src/style.css` ï¿½ global styles and layout grid definitions
+- `public/images` ï¿½ assets (logos, hero banner, feature art, testimonials, frontier images, changelog, etc.)
 
 ## Running Locally
 1) Install deps (Vite only): `npm install`
@@ -36,14 +36,7 @@ A static HTML/CSS recreation of the Cursor home page as seen on 2026-02-05. Live
 3) Open the printed localhost URL.
 
 ## Screenshots (add yours)
-Place exported screenshots in `public/screenshots/` and reference them below:
-- `public/screenshots/hero.png`
-- `public/screenshots/full-page.png`
-
-```
-![Hero](public/screenshots/hero.png)
-![Full page](public/screenshots/full-page.png)
-```
+ `/public/banner.png`
 
 ## Publishing to a Public GitHub Repo
 1) Initialize git: `git init`
