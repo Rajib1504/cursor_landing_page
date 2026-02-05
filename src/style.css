@@ -268,27 +268,77 @@ p {
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
-.fronteircart{
+.fronteircart {
   /* border: 2px solid blue; */
   padding: 1rem;
-    display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 2rem;
   border-radius: 5px;
   background-color: var(--teritary);
-
 }
 .cartText {
   font-size: 1.1rem;
 }
-.cartText span{
+.cartText span {
   color: var(--secondary);
 }
-.btn-fronteir{
+.btn-fronteir {
   margin-top: 1rem;
   color: var(--acent);
 }
-.fronteircart img{
+.fronteircart img {
   border-radius: 5px;
+}
+.Changelog {
+  /* border: 2px solid blue; */
+  margin: 11rem 0;
+}
+.Changelog h3 {
+  font-size: 1.65rem;
+  line-height: 1.25;
+  /* letter-spacing: -0.1em; */
+  margin-bottom: 2rem;
+}
+.changelogContainer {
+  display: grid;
+  /* border: 2px solid green; */
+  grid-template-columns: repeat(4,1fr);
+  gap: 8px;
+}
+.changelogCart {
+  /* border: 2px solid red; */
+  background-color: var(--teritary);
+  font-size: 1.1rem;
+  padding: 15px 17px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px 17px 20px;
+}
+.text-top {
+  color: var(--secondary);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.2rem;
+  padding-bottom: 8px;
+}
+.text-top button {
+  border: 1px solid var(--secondary);
+  border-radius: 15px;
+  padding: 5px 12px;
+  color: var(--secondary);
+  background-color: var(--bg-color);
+}
+.link{
+  color: var(--acent);
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+.link:hover{
+  color: #c84002;
 }
